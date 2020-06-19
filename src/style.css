@@ -1,0 +1,30 @@
+body {
+     background-image: url(verdescritorio.jpg);
+     background-size:900px;
+     background-position: center;
+  }
+
+h1 {
+    color: rgb(67, 4, 139);
+    font-size:22;
+    font-family: Arial;
+    text-align:center;
+    }
+
+p {
+    color: gray;
+    font-size: 35;
+    font-family: Times;
+    text-align:center;
+}
+
+button, input {
+    position: relative
+    
+}
+#b1 {
+    position: center;
+    text-align:center;
+    color: red;
+    font-size: 15;
+}

@@ -4,10 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
+    <script type="text/javascript" src="Validacion.js"> </script>
 </head>
 <body>
-    <form action="" method="get">    </form>
-    <p> Name: <input type= "text" name= "nombre"> </p>
-    <p> Número de trajeta: <input type= "text" name= "número de trajeta"> </p>
+    
+    <form method=" " action=" " >
+        <label for=" "> Número de factura45: </label>
+            <input
+            type="Numero de factura"
+            id= "Numero de factura"
+            placeholder="Numero de factura"
+            name= "Numero de factura"
+            required /> <br>
+    
+            <label for=" "> Numero de tarjeta: </label>
+            <input
+              type="number"
+              placeholder="Numero"
+              id= number
+              name=" number"
+              required /> <br>
+ 
+         <label for=" "> Seleccione su banco: </label> 
+
+         <select name="value">
+            <option value="value1"> Bancoomeva</option>
+            <option value="value2"> Banseguro</option>
+            <option value="value3">Tercer milenio</option> <br>
+            
+           <input type="submit" onclick= "obtenerDatos()"  value="Pagar"  />
+           
+           
+         </form>
+
 </body>
 </html>
